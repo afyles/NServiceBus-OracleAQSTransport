@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{8FF374E6-78C3-44BD-900C-460800658C05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{C0558040-DABF-43CF-90D4-40C57D534F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleAdvancedQueuing", "Source\OracleAdvanceQueuing\OracleAdvancedQueuing.csproj", "{953F647B-3C75-43C2-A6D0-F2283EA47DFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log4net", "log4net", "{6B3E4EE5-C4C6-4FC1-B0EB-01CF6545687A}"
+	ProjectSection(SolutionItems) = preProject
+		References\log4net\log4net.dll = References\log4net\log4net.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nservicebus", "nservicebus", "{C78B2E74-2B17-412C-B853-91571AB81095}"
+	ProjectSection(SolutionItems) = preProject
+		References\nservicebus\net4\NServiceBus.Core.dll = References\nservicebus\net4\NServiceBus.Core.dll
+		References\nservicebus\net4\NServiceBus.Core.pdb = References\nservicebus\net4\NServiceBus.Core.pdb
+		References\nservicebus\net4\NServiceBus.dll = References\nservicebus\net4\NServiceBus.dll
+		References\nservicebus\net4\NServiceBus.Host.exe = References\nservicebus\net4\NServiceBus.Host.exe
+		References\nservicebus\net4\NServiceBus.Host.pdb = References\nservicebus\net4\NServiceBus.Host.pdb
+		References\nservicebus\net4\NServiceBus.pdb = References\nservicebus\net4\NServiceBus.pdb
+		References\nservicebus\net4\NServiceBus.Testing.dll = References\nservicebus\net4\NServiceBus.Testing.dll
+		References\nservicebus\net4\NServiceBus.Testing.pdb = References\nservicebus\net4\NServiceBus.Testing.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "oracle", "oracle", "{C2D7D6A4-4BE0-4081-8428-37F90FAFC61F}"
+	ProjectSection(SolutionItems) = preProject
+		References\oracle\Oracle.DataAccess.dll = References\oracle\Oracle.DataAccess.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{06C347DA-B784-4AFC-A7DB-A2D2B5D7B284}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34945882-C964-4521-9FA5-CA1AB9144F44}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		OracleAdvanceQueuing.vsmdi = OracleAdvanceQueuing.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "Tests\ConsoleTest\ConsoleTest.csproj", "{40D1FF1F-0690-40A1-922C-89C7E97EE220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5FD541B9-ADBC-4650-8755-D0C41AFEEBEB}"
+	ProjectSection(SolutionItems) = preProject
+		Source\Scripts\generate_messages.sql = Source\Scripts\generate_messages.sql
+		Source\Scripts\send_nsb_message.sql = Source\Scripts\send_nsb_message.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.wegmans.com/tfs/wfm
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Source\\OracleAdvanceQueuing\\OracleAdvancedQueuing.csproj
+		SccProjectTopLevelParentUniqueName1 = OracleAdvanceQueuing.sln
+		SccProjectName1 = Source/OracleAdvanceQueuing
+		SccLocalPath1 = Source\\OracleAdvanceQueuing
+		SccProjectUniqueName2 = Tests\\ConsoleTest\\ConsoleTest.csproj
+		SccProjectTopLevelParentUniqueName2 = OracleAdvanceQueuing.sln
+		SccProjectName2 = Tests/ConsoleTest
+		SccLocalPath2 = Tests\\ConsoleTest
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = OracleAdvanceQueuing.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB}.Release|x86.ActiveCfg = Release|Any CPU
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Debug|x86.ActiveCfg = Debug|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Debug|x86.Build.0 = Debug|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Release|Any CPU.ActiveCfg = Release|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Release|Mixed Platforms.Build.0 = Release|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Release|x86.ActiveCfg = Release|x86
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B3E4EE5-C4C6-4FC1-B0EB-01CF6545687A} = {8FF374E6-78C3-44BD-900C-460800658C05}
+		{C78B2E74-2B17-412C-B853-91571AB81095} = {8FF374E6-78C3-44BD-900C-460800658C05}
+		{C2D7D6A4-4BE0-4081-8428-37F90FAFC61F} = {8FF374E6-78C3-44BD-900C-460800658C05}
+		{953F647B-3C75-43C2-A6D0-F2283EA47DFB} = {C0558040-DABF-43CF-90D4-40C57D534F8A}
+		{34945882-C964-4521-9FA5-CA1AB9144F44} = {06C347DA-B784-4AFC-A7DB-A2D2B5D7B284}
+		{40D1FF1F-0690-40A1-922C-89C7E97EE220} = {06C347DA-B784-4AFC-A7DB-A2D2B5D7B284}
+	EndGlobalSection
+EndGlobal
